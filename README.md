@@ -133,20 +133,18 @@ Interactive slicers enable dynamic market exploration.
 
 ---
 
-# 🤖 Machine Learning
+## 🤖 Model Comparison
 
-Several regression models were evaluated before selecting the final model.
+| Model | RMSE | R² Score |
+|--------|------:|---------:|
+| CatBoost | 0.017569 | 0.999049 |
+| LightGBM | 0.021530 | 0.998572 |
+| XGBoost | 0.021670 | 0.998553 |
 
-### Final Model
-
-**XGBoost Regressor**
-
-Performance:
-
-| Metric | Score |
-|---------|--------|
-| R² | **0.91** |
-| RMSE | **26.3K** |
+> **🏆 Best Model:** **CatBoost Regressor**  
+> - Lowest RMSE  
+> - Highest R² Score  
+> - Best overall performance
 
 ---
 
